@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.information-column img{
+    border-radius: 25%;
+    border: 1px solid #800080;
+    margin-bottom: 18px;
+    width: 230px;
+}
+
+.information-column{
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.information-column hr{
+    border-bottom: 1px solid #800080;
+    margin-top: 18px;
+}
+
+.information-column h3{
+    text-align:left;
+    margin-top: 20px;
+}
+
+.information-column ul{
+    list-style-type: none;
+}
+
+.information-column li{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.contact-description a{
+    text-decoration: none;
+    color:#fff;
+}
+.contact-description i{
+    color: #800080;
+    margin-right: 10px;
+}
+
+.education-description{
+    margin-top: 32px ;
+}
+
+.education-description p{
+    color: #800080
+}
+
+
+.languages-description .percent{
+    height: 6px;
+    background-color: #80008073;
+    margin-top: 5px;
+    width: 260px;
+}
+
+.languages-description .percent div{
+    height: 6px;
+    background-color: #8a058a;
+}
+
+.languages-description .percent.espanol div{
+    width: 50%;
+
+}.languages-description .percent.english div{
+    width: 20%;
+}
+
+.experiences-column{
+    background-color: #fff;
+    color: #000;
+    padding: 40px;
+}
+
+.experiences-column section{
+    margin-bottom: 30px;
+}
+
+.experiences-column h2{
+    margin-bottom: 15px;
+}
+
+.experiences-column .projects{
+    margin-bottom: 14px;
+
+}
+
+.experiences-column .projects a{
+    text-decoration: underline;
+    color: #800080;
+}
+
+.experiences-column .last-date{
+    text-align: right;
+}
+
+@media (min-width: 992px){
+    .container{
+        display: flex;
+    }
+
+    .information-column h1{
+        font-size: 30px
+    }
+    .information-column h2{
+        font-size: 20px
+    }
+    .information-column img{
+        width: 165px;
+    }
+    
+    .experiences-column .education{
+        display:block;
+    }
+
+    .experiences-column .date{
+        width: 300px;
+    }
+}
